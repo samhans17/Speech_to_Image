@@ -2,9 +2,13 @@
 **Speech Recognition Application**, This application allows you to perform speech recognition and retrieve an image based on the recognized speech. To use the application, follow the instructions below.
 **Prerequisites**
 Before running the code, ensure that you have the following libraries installed:
+
 pip install tk
+
 pip install SpeechRecognition
+
 pip install requests
+
 pip install Pillow
 
 **Make sure you have an active internet connection to access the Hugging Face API.**
