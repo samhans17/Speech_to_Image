@@ -22,7 +22,7 @@ def recognize_speech():
 
 def query_huggingface_api(text):
     API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer ***********************************"}
     def query(payload):
         response = requests.post(API_URL, headers=headers, json=payload)
         return response.content
